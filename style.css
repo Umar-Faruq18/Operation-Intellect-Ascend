@@ -184,3 +184,43 @@ canvas {
     height: 120px;
 }
 }
+#streakCircle {
+  width: 30vw;   /* 30% of viewport width */
+  height: 30vw;
+  line-height: 30vw;
+  font-size: 8vw; /* scales with screen */
+  margin: 20px auto;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#progressContainer {
+  width: 90%;
+  margin: 20px auto;
+}
+
+#progressBar {
+  height: 4vw; /* scales with screen */
+  border-radius: 2vw;
+}
+#quote {
+  font-size: 4vw; /* scales with screen width */
+  padding: 10px;
+}
+
+#message {
+  font-size: 5vw;
+}
+@media (max-width: 600px) {
+  #streakCircle {
+    width: 25vw;
+    height: 25vw;
+    line-height: 25vw;
+    font-size: 7vw;
+  }
+  #progressBar {
+    height: 3vw;
+  }
+}
