@@ -1,7 +1,7 @@
 // ====== CONFIGURATION ======
 const totalDays = 1000;
 // Set your actual start date here:
-const startDate = new Date("2026-03-15"); // Example: today is Day 1
+const startDate = new Date("2026-03-16"); // Example: tomorrow is Day 1
 
 // Background gradients (rotate every 100 days)
 const backgrounds = [
