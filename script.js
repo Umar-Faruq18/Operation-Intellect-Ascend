@@ -2,7 +2,7 @@
 const totalDays = 1000;
 
 // Set start date explicitly to today (Day 1)
-const startDate = new Date(2026, 2, 19); 
+const startDate = new Date(2025, 0, 10); 
 // Note: months are 0-based in JS (0=Jan, 1=Feb, 2=Mar)
 
 // Background gradients (rotate every 100 days)
